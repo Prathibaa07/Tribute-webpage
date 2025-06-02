@@ -1,0 +1,179 @@
+<head>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: 0fr 4fr 0fr;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-areas: 
+            "header header header"
+            "sidebar content notes"
+            "footer footer footer";
+            border: 2px solid rgb(111, 122, 122);
+            gap: 10px;
+        }
+        .header{
+            grid-area: header;
+            text-align: center;
+            background-color: aqua;
+            padding: 20px;
+        }
+        .header h1{
+            color: rgb(233, 9, 233);
+        } 
+        .header h2{
+            color: darkolivegreen;
+            font-size: 25px;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: lightcoral;
+            padding: 20px;
+        }
+        .sidebar ul li{
+            font-size: 25px;
+        }
+        .sidebar a{
+            text-decoration: none;
+        }
+        .content{
+            grid-area: content;
+            background-color: rgb(94, 229, 94);
+            padding: 20px;
+        }
+        .content h1{
+            color: blue;
+        }
+        .content h2{
+            color: blueviolet;
+            font-size: 40px;
+        }
+        .content p{
+            font-size: 23px;
+        }
+        .content ul li{
+            font-size: 22px;
+        }
+        .content table{
+            background-color: lightskyblue;
+        }
+        .content table th{
+            font-size: 22px;
+            color: darkblue;
+        }
+        .content table td{
+            font-size: 20px;
+        }
+        .notes{
+            grid-area: notes;
+            background-color: rgb(232, 122, 214);
+            padding: 20px;
+        }
+        .notes ul li{
+            font-size: 20px;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: rgb(101, 101, 188);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🥷🏻RANI LAKSHMI BHAI🥷🏻</h1>
+            <h2>Freedom fighter</h2>
+        </div>
+        <div class="sidebar">
+            <h1>Headings:</h1>
+            <ul>
+                <li> <a href="#About">About</a></li>
+                <li> <a href="#Earlylife">Early Life</a></li>
+                <li> <a href="#Marriage">Marriage & Challenges</a></li>
+                <li> <a href="#Revolt">Revolt British Rule</a></li>
+                <li> <a href="#Death">Death</a></li>
+                <li> <a href="#Legacy">Legacy & impact</a></li>            
+            </ul>
+        </div>
+        <div class="content">
+            <center>
+                <h2>✨~Rani Lakshmi Bhai~✨</h2>
+            </center>
+            <h1 id="About">About:</h1>
+            <p>Rani Lakshmibai, also known as Jhansi Ki Rani, was the queen of the Maratha-ruled princely state of Jhansi in India. She was a prominent figure in the Indian Rebellion of 1857 and an icon of resistance against British rule. Overpowered by the British troops, she escaped and later joined hands with Tantia Tope and occupied Gwalior and proclaimed Nana Sahib as peshwa (ruler). She continued her struggle, but died fighting a fierce battle with the British in Kotah ki Serai, near Gwalior.</p>
+            <center>
+                <img src="Ranilakshmi.png" width="250px" height="250px">
+            </center>
+            <h1 id="Earlylife">Early Life:</h1>
+            <p>Rani Lakshmi Bai (1835–1858) was a warrior queen who led Jhansi’s resistance against British rule during the 1857 Revolt. Raised in the household of Peshwa Baji Rao II, where she learned martial arts and horseback riding. Known for her bravery and leadership, she refused to surrender Jhansi and fought valiantly. She died in battle near Gwalior but remains an enduring symbol of courage and patriotism in India.</p>
+            <h1 id="Marriage">Marriage & Challenges:</h1>
+            <p>Rani Lakshmi Bai’s life was shaped by both personal tragedy and political turmoil.She married Maharaja Gangadhar Rao of Jhansi. After her marriage to Maharaja Gangadhar Rao in 1842, she was renamed Lakshmibai. She lost her son in infancy, and when her husband died in 1853, the British refused to recognize their adopted son as heir. Faced personal tragedy with the loss of her son and husband. British Doctrine of Lapse led to the annexation of Jhansi. Undeterred, Lakshmibai refused to surrender, standing strong against British rule. The British ordered her to vacate the palace, granting her a yearly pension of Rs. 60,000 in 1854.</p>
+            <center>
+                <img src="Rani family.png">
+            </center>
+            <h1 id="Revolt">Revolt against British Rule:</h1>
+            <ul>
+                <li>Rani Lakshmi Bai played a crucial role in the Indian Rebellion of 1857, one of the first major revolts against British rule. Initially, she had not rebelled but was forced to take a stand as the uprising spread across India. When British forces reached Jhansi in 1858, she put up a fierce resistance, refusing to surrender.</li>
+                <li>She escaped from Jhansi, fought alongside Tantia Tope in Kalpi, and later occupied Gwalior. Her military acumen and unwavering determination made her a legend. Despite being outnumbered, she fought till her last breath, becoming a symbol of bravery in India’s freedom struggle.</li>
+            </ul>
+            <h2>Table:</h2>
+            <center>
+            <form>
+                <table border="5">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Event</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>1828</td>
+                        <td> Born as Manikarnika Tambe in Varanasi.</td>
+                    </tr>
+                    <tr>
+                        <td>1842</td>
+                        <td> Married Maharaja Gangadhar Rao of Jansi and renamed Lakshmibai</td>
+                    </tr>
+                    <tr>
+                        <td>1853</td>
+                        <td>Maharaja died, leading to the British Doctrine of Lapse, rejected her adopted son as heir</td>
+                    </tr>
+                    <tr>
+                        <td>1857</td>
+                        <td>Played a key role in the Indian Rebellion of 1857, refused to surrounded of Jhansi</td>
+                    </tr>
+                    <tr>
+                        <td>1858</td>
+                        <td>Fought British forces, escaped from Jhansi, led battled in Kalpi & Gwalior and died in combat at Kotak-Ki-Serai</td>
+                    </tr>
+                </table>
+            </form>
+            </center>
+            <h1 id="Death">Death:</h1>
+            <p>On June 17, 1858, Rani Lakshmi Bai fought her last battle at Kotah-ki-Serai near Gwalior against British forces. Some sources claim she died in combat, while others say she asked a hermit to cremate her so the British wouldn’t capture her. She was later interred under a tamarind tree with great ceremony. Her fearless stand made her a timeless symbol of India’s resistance.</p>
+            <h1 id="Legacy">Legacy & impact:</h1>
+            <p>The deeds of the valiant queen has inspired generations. The Rani of Jhansi Regiment, a women’s unit of the Indian National Army; the Maharani Laxmi Bai Medical College in Jhansi; the Lakshmibai National University of Physical Education in Gwalior; and Rani Lakshmi Bai Central Agricultural University in Jhansi among others have been named in her honour. Two postage stamps commemorating the centenary of Lakshmibai were issued in 1957. Statues of the Rani with her son tied on her back grace many places across India.</p>
+        </div>
+        <div class="notes">
+            <h1>Fast Facts:</h1>
+            <ul>
+                <li>Date of Birth: November 19, 1828</li>
+                <li>Birth Name: Manikarnika Tambe</li>
+                <li>Parents: Moropant Tambe (Father), Bhagirathi Sapre (Mother)</li>
+                <li>Place of Birth: Varanasi, India</li>
+                <li>Husband: Maharaj Gangadhar Rao Newalkar</li>
+                <li>Children: Damodar Rao, Anand Rao (adopted)</li>
+                <li>Dynasty : Newalkar</li>
+                <li>Death: June 18, 1858</li>
+                <li>Place of Death: Kotah ki Serai, near Gwalior, India</li>
+                <li>Event: Revolt of 1857</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <center>
+                Rani Lakshmi bhai struggles <a href="https://learn.culturalindia.net/rani-lakshmibai.html#:~:text=Overpowered%20by%20the%20British%20troops%2C%20she%20escaped%20and,the%20British%20in%20Kotah%20ki%20Serai%2C%20near%20Gwalior">Click here about her</a>
+            </center>
+        </div>
+        </div>
+    </div>
+</body>
